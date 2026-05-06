@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Logs & runtime data
+chat.log
+server.log
+*.log
+
+# SRS data files (local state, not shared)
+word_data.json
+word_data_*.json
+lemma_cache.json
+lemma_cache_*.json
+overflow_cache.json
+known_forms_cache.json
+known_forms_cache_*.json
+
+# Node / Expo
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/.env
+
+# Claude Code local config
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
