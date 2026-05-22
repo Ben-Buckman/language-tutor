@@ -118,10 +118,6 @@ export default function App() {
               <ConversationScreen
                 key={activeLanguage}
                 language={activeLanguage}
-                knownWords={knownWords}
-                wordData={wordData}
-                onNewWords={(words) => addNewWords(activeLanguage, words)}
-                onWordDataUpdate={(data) => updateWordData(activeLanguage, data)}
               />
             </View>
           )}
